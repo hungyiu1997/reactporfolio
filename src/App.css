@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+ * {
+  font-family: cursive;
+  padding:0;
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  color: #264653;
+  background-color: #e9c46a;
+  padding: 1rem 1rem 1rem 1rem
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+nav a {
+  padding: 0 0 0 2rem;
+  text-decoration: none;
+  color:#264653;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  text-align: start;
+}
+
+.images {
+  width: 30rem;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2rem 0 2rem 0;
+  flex-shrink: 1;
+}
+
+#About-Me {
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+#first-section {
+  background-color: #264653;
+  background:linear-gradient(black, #264653, #2a9d8f);
+  color:#fff;
+  margin: 2rem 20rem 2rem 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 2%;
+}
+
+#Work-Portfolio {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(black, #1d3557, #457b9d, #a8dadc);
+  margin: 0 20rem 0 20rem;
+  border-radius: 2%;
+}
+
+#Work-Portfolio div {
+  padding: 1rem 0 0 4rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#Resume {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#22223b, #081c15, #1b4332, #2d6a4f );
+  margin: 2rem 20rem 2rem 20rem;
+  border-radius: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Resume h2 {
+  padding: 2rem 18rem 0 0;
+  color: white;
 }
+
+
+#Contact {
+  display:flexbox;
+  justify-content: center;
+  padding: 0 0 4rem 4rem;
+}
+
+
+
