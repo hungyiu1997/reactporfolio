@@ -1,3 +1,5 @@
+import React from "react";
+
 function Header ({ setPage, pagesArr }) {
     // where you are gonna work on the HTML
     return (

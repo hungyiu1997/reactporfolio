@@ -1,3 +1,5 @@
+import React from "react";
+
 function Footer () {
     // where you are gonna work on the HTML
     return (

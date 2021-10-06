@@ -14,10 +14,11 @@ function App() {
     <div className="App">
       <Header setPage = {setPage} pagesArr = {pagesArr} />
       {page}
-      <button onClick = {() => setPage(pagesArr[1])}>Switch</button>
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+//npm run predeploy and npm run deploy
